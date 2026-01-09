@@ -7,8 +7,8 @@ package:
   version: ${{ version }}
 
 source:
-    url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/rust_sasa_python-${{ version }}.tar.gz
-    sha256: 8c6d81145e9188eb530977aac16a78ee79f5c670706a2215a619bd9d1d586ffa
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/rust_sasa_python-${{ version }}.tar.gz
+  sha256: 8c6d81145e9188eb530977aac16a78ee79f5c670706a2215a619bd9d1d586ffa
 
 build:
   script: |
@@ -48,7 +48,7 @@ about:
     A high-performance Python library for computing SASA (Solvent Accessible Surface Area) using Rust as the backend. 
     This library provides a clean, Pythonic interface to the fast RustSASA calculation engine.
   license: MIT
-  license_file: 
+  license_file:
     - LICENSE.md
     - THIRDPARTY.yml
   repository: https://github.com/maxall41/rust-sasa-python
